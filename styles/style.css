@@ -164,7 +164,7 @@ ol {
   height: 90%;
   background-color: #fff;
   opacity: 0;
-  position: absolute;
+  position: relative;
   top: 6%;
   left: 4%;
 }
@@ -293,6 +293,10 @@ ol {
   flex-shrink: 0;
 }
 
+.more-button {
+  margin: 2px;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -378,6 +382,3 @@ ol {
 
 
 
-.more-button {
-  margin: 2px;
-}
